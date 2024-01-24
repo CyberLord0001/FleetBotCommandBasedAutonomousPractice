@@ -11,7 +11,7 @@ public class Auto extends SequentialCommandGroup {
   /** Creates a new Auto. */
   public Auto(DriveTrain driveTrain) {
     addCommands(
-      new Drive(driveTrain, -0.65, 0).withTimeout(2)
+      new Drive(driveTrain, 0.65, 0).withTimeout(1)
     );
   }
 }
